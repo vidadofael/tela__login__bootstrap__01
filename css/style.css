@@ -8,7 +8,7 @@ body {
     border-radius: 20px;
     box-shadow: .5px 10px 15px rgba(0, 0, 0, .2);
     margin: 25px auto;
-    padding: 50px;
+    padding: 25px;
 }
 
 #form-container h2 {
@@ -52,14 +52,37 @@ body {
     border-color: #5048e7;
 }
 
+.btn.btn-primary {
+    width: 100%;
+}
+
 /* IMAGEM */
 .row.align-items-center {
     align-content: center;
     height: 100%;
-    padding: 75px 0;
+    padding: 100px 0;
+}
+
+.col-md-6.order-md-1 {
+    padding-top: 50px;
 }
 
 #link-container {
     text-align: center;
     padding-top: 50px;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .btn.btn-primary {
+        width: 30%;
+    }
+    .col-md-6.order-md-1 {
+        padding-top: 0;
+    }
+    #form-container {
+        padding: 10px;
+    }
 }
