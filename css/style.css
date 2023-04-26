@@ -8,12 +8,14 @@ body {
     border-radius: 20px;
     box-shadow: .5px 10px 15px rgba(0, 0, 0, .2);
     margin: 25px auto;
-    padding: 25px;
+    padding: 50px;
 }
 
 #form-container h2 {
     font-weight: 900;
     margin-bottom: 30px;
+    padding-left: 35px;
+    padding-top: 25px;
 }
 
 #form-container a {
@@ -27,6 +29,7 @@ body {
 
 #form-container form{
     padding-bottom: 50px;
+    padding-left: 35px;
 }
 
 #form-container .form-control {
@@ -47,13 +50,15 @@ body {
     color: #222;
 }
 
-#form-container input [type="submit"] {
+#form-container input [type="submit"],
+#form-container input [type="checkbox"]:checked {
     color: #5048e7;
     border-color: #5048e7;
 }
 
 .btn.btn-primary {
     width: 100%;
+    margin-top: 20px;
 }
 
 /* IMAGEM */
@@ -71,9 +76,6 @@ body {
     text-align: center;
     padding-top: 50px;
 }
-
-
-
 
 @media (min-width: 768px) {
     .btn.btn-primary {
